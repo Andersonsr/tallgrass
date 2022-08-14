@@ -1,0 +1,105 @@
+/* HEADER CSS*/
+nav{
+    position: relative;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    border-bottom: 2px;
+    background-color: white;
+    border-bottom-style: outset;
+  }
+  
+  nav ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+    justify-content: space-around;
+      
+  }
+  
+  nav ul li{
+    position: relative;
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  nav ul a{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav ul li:hover{
+    background-color: whitesmoke ;
+  }
+  
+  #search{
+    display: flex;
+    background-color: beige;
+    /* border-bottom-style: ridge; */
+    margin: 0;
+    float: right;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    border-bottom-style: groove;
+  }
+  
+  #search button{
+    height: 33px;
+    width: 60px;
+  }
+  
+  #search input{
+    position: relative;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-left: 4px;
+    height: 30px;
+    width: 300px;
+    text-indent: 5px;
+  }
+  
+  #types{
+    justify-content: center;
+    background-color: beige;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;   
+  }
+  
+  #types ul{
+    margin-top: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    list-style: none;
+    width: 100%;
+    align-content: center; 
+    justify-content: center;
+    
+  }
+  
+  #types ul li{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 12px;
+    width: 61px;
+    color: white;
+    text-align: center;
+    border-style: groove;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+  }
+  

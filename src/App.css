@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 .fire{
   background-color: #ee8130;
 }
@@ -74,6 +75,36 @@
   background-color: #a98ff3;
 }
 
-.region {
+
+  
+.kanto {
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.johto{
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.hoenn{
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.sinnoh{
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.unova{
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.kalos{
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.alola{
+  background-image: linear-gradient(  rgb(153, 153, 152), gray);
+}
+
+.galar{
   background-image: linear-gradient(  rgb(153, 153, 152), gray);
 }

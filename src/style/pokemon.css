@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section h2{
+    text-transform: capitalize;
+    align-self: center;
+    align-content: center;
+}
+
+.overview{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-content: center;
+    align-self: center; 
+    align-items: center;
+    /* width: 100%; */
+    /* margin-left: 10px; */
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.stats ul{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+
+.stats ul li{
+    display: inline-flex;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    width: 80px;
+    justify-content: center;
+    padding-top: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    flex-wrap: wrap;
+
+}
+
+.attributes{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 6px;
+    border-style: groove;
+}
+
+.attributes div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    width: 450px;
+}
+
+.attributes div span{
+    width: 100px;
+}
+
+.attributes div p {
+    color: white;
+    padding:0px 2px 2px 4px;
+    background-image: linear-gradient(  rgb(153, 153, 152), gray);
+    margin-left: 10px;
+}
